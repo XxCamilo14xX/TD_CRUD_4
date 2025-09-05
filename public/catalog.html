@@ -1,13 +1,28 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>Catálogo</title>
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
-  <h1>Catálogo de Productos</h1>
-  <div id="catalog-container" class="catalog-grid"></div>
+  <nav class="nav">
+    <div class="container">
+      <div class="brand">TDM CRUD</div>
+      <div class="links">
+        <a href="index.html">Inicio</a>
+        <a href="catalog.html">Catálogo</a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="page">
+    <h1>Catálogo de Productos</h1>
+    <div id="catalog-container" class="catalog-grid"></div>
+  </main>
+
+  <!-- Botón de volver -->
+  <button class="btn-back" onclick="history.length>1 ? history.back() : location.href='index.html'">← Volver</button>
 
   <script src="js/catalog.js"></script>
 </body>
