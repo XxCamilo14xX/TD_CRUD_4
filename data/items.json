@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "name": "FinnSword",
+    "price": 4500,
+    "category": "Arma",
+    "stock": 1,
+    "date": "2025-09-05",
+    "description": "Una espada de Finn para Finn."
+  },
+  {
+    "id": 2,
+    "name": "Guepardex",
+    "price": 350,
+    "category": "Consumible",
+    "stock": 24,
+    "date": "2025-08-21",
+    "description": "Traído de África la mejor forma de recuperar energía."
+  },
+  {
+    "id": 3,
+    "name": "salchicha ",
+    "price": 233,
+    "category": "arma",
+    "stock": 3,
+    "date": "2025-07-31",
+    "description": "es una salchicha ._."
+  }
+]
